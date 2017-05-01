@@ -1,0 +1,123 @@
+body {
+    font: 12px  "Arial", Helvetica, Verdana, sans-serif;
+}
+#package {
+    margin: 4.75em 0 0 -9.4em;
+}
+.scene-title {
+    color: #fff;
+    height: auto!important;
+    background: none;
+}
+.scene-content i,
+.scene-desc{
+	font-size:12px;
+}
+ 
+.scene-1-word {
+    margin-left: -0.8em;
+    color: #fff;
+    font-size: 2.60em;
+    width: 9.125em;
+    background: none;
+}
+#scene-2 .scene-title {
+    width: 20.8125em;
+    font-size: 1.90em;
+    background: none;
+}
+#scene-3 .scene-title {
+    width: 22.8125em;
+    font-size: 1.50em;
+    background: none;
+}
+ 
+#scene-5 .scene-title {
+    margin: 1em 0 0.4em 1.6em;
+    /*font-size: 1.50em;
+    background: none;*/
+}
+/*#scene-5 .scene-desc {
+			width:100%;
+			height:9.6em;
+    background: url("../images/bg-scene-5-desc.png") no-repeat;
+    background-size: 100% auto;
+}*/
+#scene-5 .scene-desc{
+    margin: 0 0 0 3em;
+}
+#scene-6 .scene-title {
+    font-size: 1.50em!important;
+    background: none;
+}
+#scene-2 .scene-desc{
+    text-align: left;
+}
+#scene-3 .scene-content {
+    width: 35em;
+}
+.scene-5-fragment-5 {
+    left: -2.25625em;
+}
+/*.scene-5-fragment-5 {
+    left: left: -2.25625em;;
+    top: 1.75em;
+}*/
+.scene-4-fragment-4 {
+    left: -6em;
+}
+.scene-4-fragment-5 {
+    left: 5.64375em;
+}
+.scene-4-fragment-6 {
+    left: 17.06875em;
+}
+#scene-1 .scene-content {
+    margin: -8.4em 0 0 -7.9em;
+}
+#scene-3 .scene-icon {
+    top: 3.86875em;
+}
+#filters li {
+    padding: 0 8px!important;
+    font-size: 14px;
+    line-height: 37px;
+}
+#filters li a{
+    text-transform: uppercase;
+}
+#filters li:hover, #filters li.active {
+    height: 43px;
+    line-height: 40px;
+}
+.scene-4-fragment-desc span {
+    font-size: 0.65em;
+}
+ 
+@media screen and (max-width: 1366px) { 
+    #scene-2 .scene-content {
+        width: 50em;
+        margin: -6.75em 0 0 -11.96875em;
+    }
+    #scene-3 .scene-content {
+        width: 46em;
+    }
+    #scene-3 .scene-content {
+        margin: -7.4em 0 0 -12.96875em;
+    }
+	#scene-5 .scene-desc {
+		width:120%!important;
+	 }
+ 	#scene-5 .scene-desc {
+		width: 60.8125em;
+	}
+	#scene-6 .scene-content {
+        margin: -6.45em 0 0 -8.96875em;
+    }
+    #scene-3 .scene-icon {
+        top: 3.86875em;
+    }
+	#scene-4 .bottom-txt {
+		left: -1em;
+	}
+}
